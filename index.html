@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abroad Nexus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Popup Content -->
+    <div class="popup-new">
+        <div class="popup-content">
+            <h2 class="popup-heading">Get 30% scholarship by enrolling today.</h2>
+            <form id="registration-form"
+                action="https://script.google.com/macros/s/AKfycbxJYTIrTsdAW1DCk_CWWIyGwgE4XuTHmAO_Fmyc3NTCV5XaQz0o-270Qjt3oyl5lSGr/exec"
+                method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.(com|co\.in)$" name="email"
+                    required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="\d{10}" maxlength="10"
+                    title="Please enter a 10-digit phone number" required>
+
+                <label for="city">City:</label>
+                <select id="city" name="city" required>
+                    <option value="" disabled="" selected="">City</option>
+                    <optgroup label="Major Cities">
+                        <option value="New Delhi" data-id="125">New Delhi</option>
+                        <option value="Ahmedabad" data-id="129">Ahmedabad</option>
+                        <option value="Bangalore" data-id="227">Bangalore</option>
+                        <option value="Mumbai" data-id="336">Mumbai</option>
+                        <option value="Chennai" data-id="471">Chennai</option>
+                        <option value="Hyderabad" data-id="8">Hyderabad</option>
+                        <option value="Kolkata" data-id="608">Kolkata</option>
+                    </optgroup>
+                    <optgroup label="Andaman and Nicobar Islands">
+                        <option value="Port Blair" data-id="2">Port Blair</option>
+                    <optgroup label="Andhra Pradesh">
+                        <option value="Visakhapatnam" data-id="9142">Visakhapatnam</option>
+                        <option value="Guntur" data-id="7">Guntur</option>
+                        <option value="Prakasam" data-id="9165">Prakasam</option>
+                        <option value="East Godavari" data-id="9145">East Godavari</option>
+                        <option value="Nellore" data-id="17">Nellore</option>
+                        <option value="Krishna" data-id="9143">Krishna</option>
+                        <option value="Vizianagaram" data-id="28">Vizianagaram</option>
+                        <option value="Chittoor" data-id="5">Chittoor</option>
+                        <option value="Kadapa" data-id="9">Kadapa</option>
+                        <option value="Srikakulam" data-id="24">Srikakulam</option>
+                        <option value="Kurnool" data-id="13">Kurnool</option>
+                        <option value="Ananthapur" data-id="4">Ananthapur</option>
+                        <option value="Vijayawada" data-id="26">Vijayawada</option>
+                        <option value="Tirupati" data-id="25">Tirupati</option>
+                        <option value="Kakinada" data-id="10">Kakinada</option>
+                        <option value="Rajahmundhry" data-id="9153">Rajahmundhry</option>
+                    <optgroup label="Arunachal Pradesh">
+                        <option value="Itanagar" data-id="35">Itanagar</option>
+                    <optgroup label="Assam">
+                        <option value="Guwahati" data-id="54">Guwahati</option>
+                    <optgroup label="Bihar">
+                        <option value="Patna" data-id="95">Patna</option>
+                    <optgroup label="Chandigarh">
+                        <option value="Chandigarh" data-id="105">Chandigarh</option>
+                    <optgroup label="Chhattisgarh">
+                        <option value="Raipur" data-id="120">Raipur</option>
+                        <option value="Durg" data-id="110">Durg</option>
+                        <option value="Bilaspur" data-id="107">Bilaspur</option>
+                        <option value="Bhilai" data-id="9232">Bhilai</option>
+                    <optgroup label="Dadra and nagar Haveli">
+                        <option value="Nagar Haveli" data-id="9329">Nagar Haveli</option>
+                    <optgroup label="Daman and Diu">
+                        <option value="Daman" data-id="123">Daman</option>
+                    <optgroup label="Goa">
+                        <option value="North Goa" data-id="9244">North Goa</option>
+                    <optgroup label="Gujarat">
+                        <option value="Surat" data-id="152">Surat</option>
+                        <option value="Rajkot" data-id="150">Rajkot</option>
+                        <option value="Gandhi Nagar" data-id="138">Gandhi Nagar</option>
+                        <option value="Mehsana" data-id="145">Mehsana</option>
+                        <option value="Vadodara" data-id="154">Vadodara</option>
+                        <option value="Anand" data-id="132">Anand</option>
+                        <option value="Bhavnagar" data-id="134">Bhavnagar</option>
+                        <option value="Kachchh" data-id="9255">Kachchh</option>
+                        <option value="Sabarkantha" data-id="9155">Sabarkantha</option>
+                        <option value="Junagadh" data-id="142">Junagadh</option>
+                        <option value="Jamnagar" data-id="141">Jamnagar</option>
+                    <optgroup label="Haryana">
+                        <option value="Gurgaon" data-id="162">Gurgaon</option>
+                        <option value="Rohtak" data-id="173">Rohtak</option>
+                        <option value="Faridabad" data-id="160">Faridabad</option>
+                        <option value="Sonepat" data-id="175">Sonepat</option>
+                        <option value="Hisar" data-id="9157">Hisar</option>
+                        <option value="Ambala" data-id="157">Ambala</option>
+                        <option value="Yamuna Nagar" data-id="9276">Yamuna Nagar</option>
+                        <option value="Bhiwani" data-id="158">Bhiwani</option>
+                        <option value="Karnal" data-id="167">Karnal</option>
+                        <option value="Kurukshetra" data-id="168">Kurukshetra</option>
+                        <option value="Mahendragarh" data-id="9227">Mahendragarh</option>
+                        <option value="Sirsa" data-id="174">Sirsa</option>
+                        <option value="Panipat" data-id="171">Panipat</option>
+                        <option value="Jind" data-id="165">Jind</option>
+                        <option value="Jhajjar" data-id="164">Jhajjar</option>
+                        <option value="Rewari" data-id="172">Rewari</option>
+                    <optgroup label="Himachal Pradesh">
+                        <option value="Solan" data-id="188">Solan</option>
+                        <option value="Shimla" data-id="187">Shimla</option>
+                        <option value="Kangra" data-id="9179">Kangra</option>
+                        <option value="Hamirpur" data-id="180">Hamirpur</option>
+                        <option value="Mandi" data-id="183">Mandi</option>
+                    <optgroup label="Jammu and Kashmir">
+                        <option value="Jammu" data-id="194">Jammu</option>
+                        <option value="Srinagar" data-id="202">Srinagar</option>
+                    <optgroup label="Jharkhand">
+                        <option value="Ranchi" data-id="222">Ranchi</option>
+                        <option value="Jamshedpur" data-id="216">Jamshedpur</option>
+                    <optgroup label="Karnataka">
+                        <option value="Mangalore" data-id="246">Mangalore</option>
+                        <option value="Mysore" data-id="247">Mysore</option>
+                        <option value="Belgaum" data-id="228">Belgaum</option>
+                        <option value="Gulbarga" data-id="237">Gulbarga</option>
+                        <option value="Tumkur" data-id="250">Tumkur</option>
+                        <option value="Bijapur" data-id="231">Bijapur</option>
+                        <option value="Davanagere" data-id="235">Davanagere</option>
+                        <option value="Dharwad" data-id="9171">Dharwad</option>
+                        <option value="Shimoga" data-id="249">Shimoga</option>
+                        <option value="Udupi" data-id="251">Udupi</option>
+                        <option value="Hassan" data-id="238">Hassan</option>
+                        <option value="Bidar" data-id="230">Bidar</option>
+                        <option value="Hubli" data-id="9174">Hubli</option>
+                        <option value="Kolar" data-id="242">Kolar</option>
+                        <option value="Bagalkot" data-id="226">Bagalkot</option>
+                        <option value="Kannada" data-id="9203">Kannada</option>
+                        <option value="Chitradurga" data-id="234">Chitradurga</option>
+                        <option value="Mandya" data-id="245">Mandya</option>
+                        <option value="Gadag" data-id="236">Gadag</option>
+                        <option value="Bellary" data-id="229">Bellary</option>
+                        <option value="Raichur" data-id="248">Raichur</option>
+                    <optgroup label="Kerala">
+                        <option value="Thiruvananthapuram" data-id="267">Thiruvananthapuram</option>
+                        <option value="Thrissur" data-id="9222">Thrissur</option>
+                        <option value="Ernakulam" data-id="253">Ernakulam</option>
+                        <option value="Malappuram" data-id="261">Malappuram</option>
+                        <option value="Kochi" data-id="257">Kochi</option>
+                        <option value="Kottayam" data-id="259">Kottayam</option>
+                        <option value="Kannur" data-id="255">Kannur</option>
+                        <option value="Kozhikode" data-id="260">Kozhikode</option>
+                        <option value="Kollam" data-id="258">Kollam</option>
+                        <option value="Palakkad" data-id="263">Palakkad</option>
+                        <option value="Pathanamthitta" data-id="264">Pathanamthitta</option>
+                        <option value="Calicut" data-id="9291">Calicut</option>
+                        <option value="Trivandrum" data-id="9305">Trivandrum</option>
+                        <option value="Alappuzha" data-id="252">Alappuzha</option>
+                        <option value="Kasaragod" data-id="9228">Kasaragod</option>
+                    <optgroup label="Madhya Pradesh">
+                        <option value="Bhopal" data-id="277">Bhopal</option>
+                        <option value="Indore" data-id="290">Indore</option>
+                        <option value="Gwalior" data-id="287">Gwalior</option>
+                        <option value="Jabalpur" data-id="291">Jabalpur</option>
+                        <option value="Ujjain" data-id="316">Ujjain</option>
+                        <option value="Sagar" data-id="306">Sagar</option>
+                        <option value="Chhatarpur" data-id="279">Chhatarpur</option>
+                    <optgroup label="Maharashtra">
+                        <option value="Pune" data-id="344">Pune</option>
+                        <option value="Nagpur" data-id="337">Nagpur</option>
+                        <option value="Aurangabad" data-id="70">Aurangabad</option>
+                        <option value="Nashik" data-id="9181">Nashik</option>
+                        <option value="Kolhapur" data-id="333">Kolhapur</option>
+                        <option value="Ahmed Nagar" data-id="319">Ahmed Nagar</option>
+                        <option value="Thane" data-id="9136">Thane</option>
+                        <option value="Jalgaon" data-id="331">Jalgaon</option>
+                        <option value="Solapur" data-id="350">Solapur</option>
+                        <option value="Sangli" data-id="347">Sangli</option>
+                        <option value="Amravati" data-id="321">Amravati</option>
+                        <option value="Satara" data-id="348">Satara</option>
+                        <option value="Navi Mumbai" data-id="16337">Navi Mumbai</option>
+                        <option value="Beed" data-id="323">Beed</option>
+                        <option value="Dhule" data-id="327">Dhule</option>
+                        <option value="Wardha" data-id="351">Wardha</option>
+                        <option value="Raigarh" data-id="345">Raigarh</option>
+                        <option value="Ratnagiri" data-id="346">Ratnagiri</option>
+                        <option value="Latur" data-id="334">Latur</option>
+                        <option value="Yavatmal" data-id="353">Yavatmal</option>
+                        <option value="Chandrapur" data-id="326">Chandrapur</option>
+                        <option value="Nanded" data-id="338">Nanded</option>
+                        <option value="Akola" data-id="320">Akola</option>
+                    <optgroup label="Manipur">
+                        <option value="Imphal" data-id="357">Imphal</option>
+                    <optgroup label="Meghalaya">
+                        <option value="Shillong" data-id="9219">Shillong</option>
+                    <optgroup label="Mizoram">
+                        <option value="Aizawl" data-id="363">Aizawl</option>
+                    <optgroup label="Nagaland">
+                        <option value="Dimapur" data-id="371">Dimapur</option>
+                    <optgroup label="Orissa">
+                        <option value="Bhubaneswar" data-id="387">Bhubaneswar</option>
+                        <option value="Cuttack" data-id="390">Cuttack</option>
+                    <optgroup label="Puducherry">
+                        <option value="Pondicherry" data-id="9147">Pondicherry</option>
+                    <optgroup label="Punjab">
+                        <option value="Patiala" data-id="431">Patiala</option>
+                        <option value="Mohali" data-id="9223">Mohali</option>
+                        <option value="Ludhiana" data-id="425">Ludhiana</option>
+                        <option value="Amritsar" data-id="415">Amritsar</option>
+                        <option value="Jalandhar" data-id="423">Jalandhar</option>
+                        <option value="Bathinda" data-id="416">Bathinda</option>
+                        <option value="Hoshiarpur" data-id="422">Hoshiarpur</option>
+                        <option value="Sangrur" data-id="433">Sangrur</option>
+                        <option value="Gurdaspur" data-id="421">Gurdaspur</option>
+                        <option value="Moga" data-id="427">Moga</option>
+                        <option value="Firozpur" data-id="9236">Firozpur</option>
+                        <option value="Fatehgarh Sahib" data-id="419">Fatehgarh Sahib</option>
+                        <option value="Kapurthala" data-id="424">Kapurthala</option>
+                    <optgroup label="Rajasthan">
+                        <option value="Jaipur" data-id="450">Jaipur</option>
+                        <option value="Udaipur" data-id="465">Udaipur</option>
+                        <option value="Alwar" data-id="435">Alwar</option>
+                        <option value="Jodhpur" data-id="455">Jodhpur</option>
+                        <option value="Ajmer" data-id="434">Ajmer</option>
+                        <option value="Sikar" data-id="462">Sikar</option>
+                        <option value="Kota" data-id="457">Kota</option>
+                        <option value="Ganganagar" data-id="448">Ganganagar</option>
+                        <option value="Bikaner" data-id="441">Bikaner</option>
+                        <option value="Jhunjhunu" data-id="9196">Jhunjhunu</option>
+                        <option value="Hanumangarh" data-id="449">Hanumangarh</option>
+                    <optgroup label="Sikkim">
+                        <option value="Gangtok" data-id="466">Gangtok</option>
+                    <optgroup label="Tamil Nadu">
+                        <option value="Coimbatore" data-id="472">Coimbatore</option>
+                        <option value="Namakkal" data-id="483">Namakkal</option>
+                        <option value="Kanyakumari" data-id="478">Kanyakumari</option>
+                        <option value="Salem" data-id="487">Salem</option>
+                        <option value="Madurai" data-id="481">Madurai</option>
+                        <option value="Vellore" data-id="501">Vellore</option>
+                        <option value="Kanchipuram" data-id="477">Kanchipuram</option>
+                        <option value="Erode" data-id="476">Erode</option>
+                        <option value="Tirunelveli" data-id="495">Tirunelveli</option>
+                        <option value="Thanjavur" data-id="490">Thanjavur</option>
+                        <option value="Villupuram" data-id="9177">Villupuram</option>
+                        <option value="Dindigul" data-id="475">Dindigul</option>
+                        <option value="Trichy" data-id="9163">Trichy</option>
+                        <option value="Tiruvannamalai" data-id="497">Tiruvannamalai</option>
+                        <option value="Cuddalore" data-id="473">Cuddalore</option>
+                        <option value="Thiruchirapalli" data-id="9141">Thiruchirapalli</option>
+                        <option value="Thiruvallur" data-id="492">Thiruvallur</option>
+                        <option value="Pudukkottai" data-id="485">Pudukkottai</option>
+                        <option value="Dharmapuri" data-id="474">Dharmapuri</option>
+                        <option value="Thiruchirapalli" data-id="9176">Thiruchirapalli</option>
+                        <option value="Thoothukudi" data-id="493">Thoothukudi</option>
+                        <option value="Sivaganga" data-id="488">Sivaganga</option>
+                        <option value="Perambalur" data-id="484">Perambalur</option>
+                        <option value="Virudhunagar" data-id="503">Virudhunagar</option>
+                        <option value="Tiruppur" data-id="496">Tiruppur</option>
+                        <option value="Nagapattinam" data-id="482">Nagapattinam</option>
+                        <option value="Karur" data-id="479">Karur</option>
+                    <optgroup label="Telangana">
+                        <option value="Rangareddi" data-id="22">Rangareddi</option>
+                        <option value="Warangal" data-id="29">Warangal</option>
+                        <option value="Nalgonda" data-id="16">Nalgonda</option>
+                        <option value="Karim Nagar" data-id="11">Karim Nagar</option>
+                        <option value="Khammam" data-id="12">Khammam</option>
+                        <option value="Secunderabad" data-id="9296">Secunderabad</option>
+                        <option value="Mahabub Nagar" data-id="15">Mahabub Nagar</option>
+                        <option value="Nizamabad" data-id="18">Nizamabad</option>
+                        <option value="Medak" data-id="9310">Medak</option>
+                    <optgroup label="Tripura">
+                        <option value="Agartala" data-id="504">Agartala</option>
+                    <optgroup label="Uttar Pradesh">
+                        <option value="Lucknow" data-id="551">Lucknow</option>
+                        <option value="Meerut" data-id="557">Meerut</option>
+                        <option value="Ghaziabad" data-id="535">Ghaziabad</option>
+                        <option value="Noida" data-id="562">Noida</option>
+                        <option value="Kanpur" data-id="546">Kanpur</option>
+                        <option value="Allahabad" data-id="511">Allahabad</option>
+                        <option value="Agra" data-id="508">Agra</option>
+                        <option value="Greater Noida" data-id="9424">Greater Noida</option>
+                        <option value="Varanasi" data-id="576">Varanasi</option>
+                        <option value="Bareilly" data-id="521">Bareilly</option>
+                        <option value="Mathura" data-id="555">Mathura</option>
+                        <option value="Aligarh" data-id="510">Aligarh</option>
+                        <option value="Moradabad" data-id="559">Moradabad</option>
+                        <option value="Saharanpur" data-id="570">Saharanpur</option>
+                        <option value="Bijnor" data-id="523">Bijnor</option>
+                        <option value="Jaunpur" data-id="543">Jaunpur</option>
+                        <option value="Gorakhpur" data-id="538">Gorakhpur</option>
+                        <option value="Muzaffarnagar" data-id="560">Muzaffarnagar</option>
+                        <option value="Sultanpur" data-id="574">Sultanpur</option>
+                    <optgroup label="Uttarakhand">
+                        <option value="Dehradun" data-id="580">Dehradun</option>
+                        <option value="Haridwar" data-id="583">Haridwar</option>
+                        <option value="Nainital" data-id="584">Nainital</option>
+                        <option value="Roorkee" data-id="588">Roorkee</option>
+                        <option value="Garhwal" data-id="9250">Garhwal</option>
+                    <optgroup label="West Bengal">
+                        <option value="Bardhaman" data-id="598">Bardhaman</option>
+                        <option value="Murshidabad" data-id="9208">Murshidabad</option>
+                        <option value="Hooghly" data-id="9158">Hooghly</option>
+                        <option value="Medinipur" data-id="9230">Medinipur</option>
+                        <option value="North 24 Parganas" data-id="9204">North 24 Parganas</option>
+                        <option value="Nadia" data-id="9183">Nadia</option>
+                        <option value="Midnapore" data-id="611">Midnapore</option>
+                        <option value="Durgapur" data-id="604">Durgapur</option>
+                        <option value="Howrah" data-id="9189">Howrah</option>
+
+                    </optgroup>
+                </select>
+                <label for="country">Destination Country:</label>
+                <input type="text" id="country" name="country" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- landing page -->
+    <div class="hidden" id="landing-page">
+        <nav>
+            <div class="logo">Abroad </br> Nexus</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+            </ul>
+        </nav>
+
+        <header id="home">
+            <div class="header-overlay">
+                <h1>Welcome to Your Dream</h1>
+                <h2>Explore top universities worldwide</h2>
+            </div>
+        </header>
+
+        <section id="about-us">
+            <div class="about-container">
+                <div class="about-left">
+                    <h2>About </br> Us...</h2>
+                    <p>
+                        At Abroad Nexus, we don’t just help you find a university—we help you shape your future.
+                        We believe studying abroad is more than just earning a degree; it’s about experiencing the
+                        world,
+                        broadening your perspective, and unlocking opportunities that can change your life forever.
+
+                        Our team knows that the decision to study overseas is a big step, and we’re here to make it
+                        simpler
+                        and exciting. We offer personalized, honest advice to guide you through every part of the
+                        journey—whether it’s choosing the right destination, picking a program that aligns with your
+                        goals,
+                        or navigating the application and visa process.
+
+                        What sets us apart is the care and attention we give to each student’s unique path. We take the
+                        time
+                        to understand your dreams and ambitions so that we can connect you to the best opportunities out
+                        there. With our global network of partner institutions, we’ll help you find the perfect fit, be
+                        it
+                        in the bustling energy of a major city or the quiet charm of a university town.
+
+                        At Abroad Nexus, we’re not just consultants; we’re your partners in making the world your
+                        classroom. Let’s embark on this journey together and create a future without borders.</p>
+                </div>
+                <div class="about-right">
+                    <img src="about.jpg" alt="About Us Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <div class="course-grid">
+                <div class="course-box">Engineering</div>
+                <div class="course-box">Medical</div>
+                <div class="course-box">Law</div>
+                <div class="course-box">Business</div>
+                <div class="course-box">Accounting</div>
+
+            </div>
+            <h2>Test Preparation</h2>
+            <div class="test-slider">
+                <div class="test-box">GRE</div>
+                <div class="test-box">GMAT</div>
+                <div class="test-box">IELTS</div>
+                <div class="test-box">TOEFL</div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Study Abroad Consultancy. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
